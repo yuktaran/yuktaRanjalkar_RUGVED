@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import math
 x1=0
 y1=0
 theta=0
@@ -42,7 +43,7 @@ def motion():
         trackx.append(x2)
         tracky.append(y2)
         try:
-            theta=(y2-y1)/(x2-x1)
+            theta=math.atan2((y2-y1),(x2-x1))
         except ZeroDivisionError:
             theta=0
 
