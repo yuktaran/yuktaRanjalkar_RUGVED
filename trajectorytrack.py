@@ -45,7 +45,7 @@ def motion():
         try:
             theta=math.atan2((y2-y1),(x2-x1))
         except ZeroDivisionError:
-            theta=0
+            theta=90
 
         print("final pos: ("+str(x2)+","+str(y2)+","+str(theta)+")")
         try:
