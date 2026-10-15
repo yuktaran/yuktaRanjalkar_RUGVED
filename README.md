@@ -6,5 +6,6 @@ a few algorithms that i learnt but haven't implemented.
 5. K-Nearest Neighbour (KNN):- probably my favourite simply because it's lazy algorithm. predicts the category by comparing neighbours
 6. Random Sample Consensus (RANSAC)- this one uses a new library openCV which i don't know anything about <3.
 
-The ones i did implement (was asked to implement but its alright) are KMeans Clustering and Decision Trees
-before edit, will keep this here as a record and update as i code them
+The ones i did implement (was asked to implement but its alright) are 
+1. KMeans Clustering
+2. Decision Trees
